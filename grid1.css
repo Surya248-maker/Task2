@@ -1,0 +1,41 @@
+.main{
+    display: grid;
+    height: 500px;
+    width: 100%;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(3,auto);
+    gap: 10px;
+}
+.c1{
+    background-color: green;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.c2{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.c3{
+    background-color:red;
+}
+.c4{
+    background-color:yellow;
+
+}
+.c5{
+    background-color: red;
+}
+.c6{
+    background-color: green;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.c7{
+    background-color: red;
+}
+.c8{
+    background-color: yellow;
+}
